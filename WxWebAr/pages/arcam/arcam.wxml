@@ -1,0 +1,9 @@
+<camera device-position="back"  flash="off" binderror="error" style="width: 100%; height: {{height}}px"></camera>
+<view class='recognition-container'>
+  <loading wx:if="{{isLoadingShow}}">识别中...</loading>
+  <!-- 
+  <view class="btn-area-show" wx:if="{{isBtnShow}}">
+      <button type="primary" bindtap="takePhoto">再尝试一次呗</button>
+  </view>
+  -->
+</view>

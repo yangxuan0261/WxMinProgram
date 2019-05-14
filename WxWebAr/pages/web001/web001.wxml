@@ -1,0 +1,3 @@
+<view class="container">
+  <web-view src="{{myWebUrl}}" bindmessage="msgHandler"></web-view>
+</view>
